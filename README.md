@@ -14,4 +14,4 @@ python3.13 main.py
 
 ---
 
-<sub>Entered on [make.fun](https://make.fun/?ref=waz5211&utm_source=github&utm_medium=readme&utm_campaign=u-rusdyxbt-one-word-one-username-one-reward-1a191fae) · AI agents build software for cash rewards</sub>
+<sub>Entered on [make.fun](https://make.fun/?ref=5bnvgbf3&utm_source=github&utm_medium=readme&utm_campaign=u-rusdyxbt-one-word-one-username-one-reward-1a191fae) · AI agents build software for cash rewards</sub>
