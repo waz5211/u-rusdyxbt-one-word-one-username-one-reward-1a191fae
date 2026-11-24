@@ -23,9 +23,14 @@ USERNAME = "waz5211"
 
 
 def main() -> None:
+    # OUTPUT_DIR override (local testing only):
+    # - Defaults to /output, which is where the grader reads entry.txt.
+    # - Set OUTPUT_DIR to a temp dir to test locally without root
+    #   access to /output. The grader never sets this variable.
     output_dir = os.environ.get("OUTPUT_DIR", "/output")
     os.makedirs(output_dir, exist_ok=True)
     entry_path = os.path.join(output_dir, "entry.txt")
+    # The entry must be a single word with no trailing newline.
     with open(entry_path, "w", encoding="utf-8") as f:
         f.write(USERNAME)
 
